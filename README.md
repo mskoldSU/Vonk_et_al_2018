@@ -4,10 +4,11 @@ Vonk et al temporal deconvolution
 This repository contains sample code for reproducing results in *Temporal deconvolution of vascular plant-derived fatty acids exported from terrestial watersheds* by Vonk et.al., to appear in [*Geochimica et Cosmochimica Acta*](https://www.journals.elsevier.com/geochimica-et-cosmochimica-acta).
 
 The model considered in the paper can be described by the equation (\[4\] in the paper)
+
 <p align="center">
 <img src="tex/d16301d632c377abbabd558b00415cf4.svg?invert_in_darkmode&sanitize=true" align=middle width=609.7429701pt height=38.242408049999995pt/>
 </p>
-for <img src="tex/e777e1ef6ee7e48f0276ad38390a560a.svg?invert_in_darkmode&sanitize=true" align=middle width=82.19635874999999pt height=21.68300969999999pt/>, where <img src="tex/b0a852ae71cd56ce00cb7c1a592a1edc.svg?invert_in_darkmode&sanitize=true" align=middle width=161.97330434999998pt height=24.65753399999998pt/> and <img src="tex/1cd32b0756da515bc59142b9318ff797.svg?invert_in_darkmode&sanitize=true" align=middle width=11.323291649999991pt height=14.15524440000002pt/> is a normally distributed (Gaussian) measurement error with known standard deviation. Prior to fitting, the integral is approximated by the sum
+<br> for <img src="tex/e777e1ef6ee7e48f0276ad38390a560a.svg?invert_in_darkmode&sanitize=true" align=middle width=82.19635874999999pt height=21.68300969999999pt/>, where <img src="tex/b0a852ae71cd56ce00cb7c1a592a1edc.svg?invert_in_darkmode&sanitize=true" align=middle width=161.97330434999998pt height=24.65753399999998pt/> and <img src="tex/1cd32b0756da515bc59142b9318ff797.svg?invert_in_darkmode&sanitize=true" align=middle width=11.323291649999991pt height=14.15524440000002pt/> is a normally distributed (Gaussian) measurement error with known standard deviation. Prior to fitting, the integral is approximated by the sum
 
 <p align="center">
 <img src="tex/022e39b38d956874f3112ada2eaa29d2.svg?invert_in_darkmode&sanitize=true" align=middle width=592.0066052999999pt height=73.6915278pt/>
