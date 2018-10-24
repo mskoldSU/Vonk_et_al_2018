@@ -3,7 +3,7 @@ Vonk et al temporal deconvolution
 
 This repository contains sample code for reproducing results in *Temporal deconvolution of vascular plant-derived fatty acids exported from terrestial watersheds* by Vonk et.al., to appear in [*Geochimica et Cosmochimica Acta*](https://www.journals.elsevier.com/geochimica-et-cosmochimica-acta).
 
-The model considered in the paper can be described by the equation (\[4\] in the paper)
+The model considered in the paper can be described by the equation (\[5\] in the paper)
 
 <p align="center">
 <img src="tex/d16301d632c377abbabd558b00415cf4.svg?invert_in_darkmode&sanitize=true" align=middle width=609.7429701pt height=38.242408049999995pt/>
